@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Staatliches&display=swap');
+
+li::marker {content: none;}
+
+.btn-white{
+    background-color: #ffffff;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+   margin-left: 600px;
+}
+
+.concert-container{
+    background-color: #1D1D1D;
+}
+
+.concert-container h2{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "staatliches";
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.concert-container ul{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    justify-content: space-between;
+    width: 85%;
+    padding-bottom: 111px;
+}
+
+.hero{
+    height: 1024px;
+    background-image: url(../images/hero.png);
+}
+
+.hero button{
+    background-color: #B9F8FF;
+    padding-right: 42px;
+    padding-left: 42px;
+    font-family: "staatliches";
+    font-size: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: none;
+    margin-left: 637px;
+    margin-top: 64px;
+}
+
+.hero-text h1{
+    font-size: 145px;
+    font-family: "staatliches";
+    color: #ffffff;
+}
+
+.hero-text p{
+    font-family: "oswald";
+    color: #ffffff;
+    font-weight: 300 ;
+    font-size: 33px;
+    margin-top: 56px;
+}
+
+.hero-text h2{
+    font-size: 55px;
+    font-family: "oswald";
+    color: #B9F8FF;
+
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.text-uppercase{ text-align: center;}
+
+.hero-container{
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-left: 122px;
+}
+
+.hero ul{
+    text-align: right;
+}
+
+.hero-img {
+    margin-top: 43px;
+}
+
+.ticket-container{
+justify-content: center;
+background-color: black;
+padding-bottom: 127px;
+}
+
+.merch{
+     background-color: #1D1D1D;
+     padding-left: 122px;
+}
+
+.container-merch ul{
+    padding-top: 78px;
+    padding-bottom: 110px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1196px;
+}
+
+.ticket{
+    background-color: #1D1D1D;
+}
+
+.ticket-list{
+    margin-bottom: 26px;
+    justify-content: space-between;
+    border-bottom: solid; color: #58D1EC;
+    margin-top: 23px;
+}
+
+.ticket-list li{
+    border-bottom: #B9F8FF;
+}
+
+.ticket h2{
+color: #ffffff;
+font-size: 36px;
+font-family: "staatliches";
+margin-top: 26px;
+}
+
+.ticket h3{
+    font-family: "oswald";
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    padding-right: 28px;
+}
+
+.ticket p{
+    color: #ffffff;
+    font-family: "oswald";
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.ticket button{
+    margin-right:34px ;
+    padding-right: 14px;
+    padding-left: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+}
+
+.hero ul{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "staatliches";
+    font-size: 20px;
+    margin-top: 41px;
+}
+
+.container-merch h3{
+    font-family: "oswald";
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 26px;
+    margin-bottom: 12px;
+
+}
+
+.container-merch h2 {
+    padding-top: 93px ;
+    color: #ffffff;
+    font-family: "staatliches";
+    margin-bottom: 27px;
+}
+
+.container-merch h4{
+    color:#ffffff;
+    font-size: 16px;
+}
+
+.container-soundtrack{
+    background-color: #000000;
+    height: 970px;
+}
+
+.container-soundtrack li{
+    color: #ffffff;
+    margin-top: 21px;
+}
+
+.container-soundtrack button{
+    background-color: #ffffff;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    height: 50px;
+    width: 214px;
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.footer ul{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width:30%;
+}
+
+.footer p {
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 2068px) {
+
+    .img-sm{display: none;}
+
+    .img-lg{
+        display: block;
+    }
+    
+}
+
+
+@media screen and (min-width: 720px) and (max-width: 1024px){
+
+    .hero-text h1{
+        font-size: 100px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-text h2{
+        font-size: 40px;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ticket-container {width: 100vw;}
+
+    .img-sm{display: none;}
+
+    .img-lg{
+        display: none;
+    }
+
+    .tablet-ticket{
+        display: block;
+    }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+
+    .hero{
+        height: 852px;
+    }
+
+    .hero-text button {
+    padding-right: 126px;
+    padding-left: 126px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: block;
+    }
+
+    .hero-text h1{
+        font-size: 64px;
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-text h2{
+        font-size: 36px;
+        max-width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .hero-text p {
+        font-size: 24px;
+    }
+
+    .ticket{
+        width: 100vw;
+    }
+
+    .ticket-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .ticket-container p{
+        font-size: 16px;
+        margin-right: 41px;
+        text-align: end;
+    }
+
+    .ticket-container h3 {
+        font-size: 16px;
+    }
+
+    .ticket-container button {
+        display: none;
+    }
+
+    .img-sm{width: 100vw;}
+
+    .img-lg{
+        display: none;
+    }
+
+}
